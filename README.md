@@ -79,17 +79,26 @@ CAPTCHA라는 표현은 2000년 카네기멜론 대학의 Luis von Ahn, Manuel B
 2014년 4월 10일 중국 연구팀이 해킹에 성공했습니다 -_-..
 https://www.youtube.com/watch?v=oj8gGhVFWTE
 
+심지허 최근 연구에 따르면 오늘날의 머신러닝 기술의 바탕으로 99.8%의 정확도로 왜곡 된 텍스트의 변형을 해석할 수 있다고합니다.
+
+**왜곡 된 텍스트는 더이상 신뢰할 수 있는 테스트가 아닙니다..**
+
 ### v2
 
 ![image](https://cdn-images-1.medium.com/max/1600/1*7PTIFEBGw0h4Xkx5CwtCTw.gif)
 
 최근 여러 웹사이트에서 사용중인 방식입니다.
 
-정확히 알고리즘이 공개된 것은 아니지만 통상적으로 인간 특유의 마우스 사용 패턴, 쿠키 값 등등으로 구별해 냅니다. 
+정확히 알고리즘이 공개된 것은 아니지만 통상적으로 인간 특유의 마우스 사용 패턴, 쿠키 값 등 여러 패턴 탐지를 통한 구별을 해낸다고 개발자들은 추측(?)하고있습니다.
 
-클릭 단계에서 테스트를 통과하지 않는다면 **그림 찾기** 캡챠사 시작됩니다..
+> [How does new Google reCAPTCHA work?](https://stackoverflow.com/questions/27286232/how-does-new-google-recaptcha-work)
+
+첫 관문인 클릭 단계에서 테스트를 통과하지 않는다면 **그림 찾기** 캡챠가 시작됩니다..
+
+![image](https://raw.githubusercontent.com/jwgo/CAPTCHA/master/img/v2.gif)
 
 ### v3
 
-작성중..
+v3는 웹사이트에서 유저의 상호작용을 분석하는 ARAE를 기반으로 하여 점수를 부여하여 사람과 봇을 구별합니다.
 
+추가정보 작성중..
